@@ -3,19 +3,17 @@
   "packageManager": "pnpm@6.32.3",
   "scripts": {
     "build": "vite build",
-    "dev": "vite --port 3333 --open",
+    "dev": "vite --port 3333 --https --open",
     "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
-    "test": "vitest",
-    "deploy": "bash deploy.sh && npm run deploy:ezsvs",
-    "deploy:ezsvs": "ezsvs redeploy"
+    "test": "vitest"
   },
   "dependencies": {
     "@vueuse/core": "^8.2.5",
     "vue": "^3.2.31",
     "vue-router": "^4.0.14",
-    "vue2-repl": "^0.2.0"
+    "@xxholly32/vue2-repl": "^0.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.20.2",
@@ -25,7 +23,6 @@
     "@vitejs/plugin-vue": "^2.3.1",
     "@vue/test-utils": "^2.0.0-rc.19",
     "eslint": "^8.13.0",
-    "ezsvs-cli": "^0.0.4",
     "jsdom": "^19.0.0",
     "pnpm": "^6.32.6",
     "typescript": "^4.6.3",

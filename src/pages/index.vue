@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { Repl, ReplStore } from 'vue2-repl'
-import 'vue2-repl/dist/style.css'
+import { Repl, ReplStore } from '@xxholly32/vue2-repl'
+import '@xxholly32/vue2-repl/dist/style.css'
 
 const query = new URLSearchParams(location.search)
 const store = new ReplStore({
