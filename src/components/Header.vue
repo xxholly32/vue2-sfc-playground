@@ -26,7 +26,7 @@ const copyLink = function () {
         <div i-carbon-copy-link />
       </button>
       <a class="icon-btn" i-carbon-logo-github rel="noreferrer"
-        href="" target="_blank" title="Gitlab" />
+        href="https://github.com/xxholly32/vue2-sfc-playground" target="_blank" title="Github" />
       <a class="icon-btn" i-carbon-home rel="noreferrer" :href="href" target="_blank" title="去编辑" />
     </div>
   </nav>
